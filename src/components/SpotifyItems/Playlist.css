@@ -1,0 +1,7 @@
+.playlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+.playlist__items {
+    display: block;
+}

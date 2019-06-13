@@ -1,0 +1,352 @@
+[
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0AMssoUKCz7"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0AMssoUKCz7",
+        "id": "37i9dQZF1DX0AMssoUKCz7",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/ef8455ad9c9f445214b5266ac0408492bdffd187",
+                "width": null
+            }
+        ],
+        "name": "Tropical House",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDQzMTAyOSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0AMssoUKCz7/tracks",
+            "total": 200
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX0AMssoUKCz7"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4WYpdgoIcn6",
+        "id": "37i9dQZF1DX4WYpdgoIcn6",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/b1a0cabf49ff89c164cfa2bfe899be1d308dd2aa",
+                "width": null
+            }
+        ],
+        "name": "Chill Hits",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDQzMTA1MCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4WYpdgoIcn6/tracks",
+            "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX4WYpdgoIcn6"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXRqgorJj26U",
+        "id": "37i9dQZF1DWXRqgorJj26U",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/22aa4f9c1057c444088c8b21eb9504fbba7f6ef7",
+                "width": null
+            }
+        ],
+        "name": "Rock Classics",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDQzMTA3OSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXRqgorJj26U/tracks",
+            "total": 150
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWXRqgorJj26U"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3rxVfibe1L0",
+        "id": "37i9dQZF1DX3rxVfibe1L0",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/45e50c37774cd3e86f22985e24c0028a1d3a3b05",
+                "width": null
+            }
+        ],
+        "name": "Mood Booster",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDQzMTA0OCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3rxVfibe1L0/tracks",
+            "total": 77
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX3rxVfibe1L0"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWX0o6sD1a6P5"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWX0o6sD1a6P5",
+        "id": "37i9dQZF1DWX0o6sD1a6P5",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/48fc56d5f6af3f3923fd1d7054cd4cb483fe63ac",
+                "width": null
+            }
+        ],
+        "name": "Afro Hits",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU1OTg1OTQyMCwwMDAwMDA2MTAwMDAwMTZiMmVkZGRiZGQwMDAwMDE2YjI4OTQzZTM0",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWX0o6sD1a6P5/tracks",
+            "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWX0o6sD1a6P5"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4fpCWaHOned"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4fpCWaHOned",
+        "id": "37i9dQZF1DX4fpCWaHOned",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/edc5bd3507b3b005f6683d40759b91b2f917c417",
+                "width": null
+            }
+        ],
+        "name": "Confidence Boost",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDQzMTA0MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4fpCWaHOned/tracks",
+            "total": 60
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX4fpCWaHOned"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWSXBu5naYCM9"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSXBu5naYCM9",
+        "id": "37i9dQZF1DWSXBu5naYCM9",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/6454993b76a659c3658f8f1741e2b5a9d332225f",
+                "width": null
+            }
+        ],
+        "name": "A Perfect Day",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDM0MjgxNywwMDAwMDA3NTAwMDAwMTZiNGJhZGVhMDYwMDAwMDE2ODk4YmRhZmUx",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSXBu5naYCM9/tracks",
+            "total": 80
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWSXBu5naYCM9"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M",
+        "id": "37i9dQZF1DXcBWIGoYBM5M",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/e0f8c10b6f4a7cfa83beafa8e227ba06bdf85c2f",
+                "width": null
+            }
+        ],
+        "name": "Today's Top Hits",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU2MDM2NDUyNiwwMDAwMDMyMjAwMDAwMTZiNGNmOTJhYjgwMDAwMDE2YjJmMGQ3ZjA1",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M/tracks",
+            "total": 51
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX30HHrCAl4ZG"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX30HHrCAl4ZG",
+        "id": "37i9dQZF1DX30HHrCAl4ZG",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/894b0ba40f8b0873c5d8436b104219620e99bb9f",
+                "width": null
+            }
+        ],
+        "name": "Underground Hits",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU0ODc2Mjk0OSwwMDAwMDA0MDAwMDAwMTY0YWU3MmEzOTMwMDAwMDE2ODk5NzcyNmNj",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX30HHrCAl4ZG/tracks",
+            "total": 52
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX30HHrCAl4ZG"
+    },
+    {
+        "collaborative": false,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZeKCadgRdKQ",
+        "id": "37i9dQZF1DWZeKCadgRdKQ",
+        "images": [
+            {
+                "height": null,
+                "url": "https://pl.scdn.co/images/pl/default/47b2162c9833fe9f3d5e2f56c5aa8157e1cca81a",
+                "width": null
+            }
+        ],
+        "name": "Deep Focus",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU1OTM0MDQxOCwwMDAwMDA2ODAwMDAwMTZiMGZlZTg2YzMwMDAwMDE2ODk4Y2NiNmJk",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZeKCadgRdKQ/tracks",
+            "total": 164
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWZeKCadgRdKQ"
+    }
+]
