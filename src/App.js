@@ -12,10 +12,10 @@ class App extends Component {
 
   async componentDidMount () {
     const tracks = await getTrack()
-    console.log('App ===>', tracks)
     this.setState({
       tracks
     })
+    console.log('App ===>', tracks)
   }
 
   render(){
