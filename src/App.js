@@ -1,28 +1,28 @@
 import React, {Component} from 'react';
 import './App.css';
-import {getTrack} from './components/SpotifyClient/SpotifyClient';
-import Tracks from './components/SpotifyItems/Tracks';
+import {getSpotifyAlbums} from './components/SpotifyClient/SpotifyClient';
+import Albums from './components/SpotifyItems/Albums';
 
 class App extends Component {
   state = {
-    tracks: []
+    albums: []
   }
 
   async componentDidMount () {
-    const tracks = await getTrack()
+    const albums = await getSpotifyAlbums()
     this.setState({
-      tracks
+      albums
     })
-    console.log('App ===>', tracks)
+    console.log('App ===>', albums)
   }
 
   render(){
-    const {tracks} = this.state
+    const {albums} = this.state
     return (
       <div className="App">
         <header>
         </header>
-        <Tracks tracks={tracks}></Tracks>
+        <Albums albums={albums}></Albums>
       </div>
     );
   }
