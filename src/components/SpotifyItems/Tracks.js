@@ -10,8 +10,11 @@ export default class Track extends Component {
     const {tracks} = this.props
     return (
       <ul>
-          <li>
+        {tracks.map(track => (
+          <li key={track.id}>
+              {track.name}
           </li>
+        ))}
       </ul>
     )
   }
