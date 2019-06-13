@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Playlist.css"
+import {getTrackFromPlaylist} from "./../../services/SpotifyClient/SpotifyClient"
 
 export default class Playlist extends Component {
 
@@ -7,18 +8,21 @@ export default class Playlist extends Component {
     playlists: []
   }
 
+  onClickPlaylist(playlist) {
+    getTrackFromPlaylist(playlist.id)
+  }
   render () {
     const {playlists} = this.props
     return (
       <div class="playlist">
-          {playlists.map(list =>(
-            <div class="playlist__item" key={list.id}>
+          {playlists.map(playlist =>(
+            <div class="playlist__item" key={playlist.id} onClick={() => this.onClickPlaylist(playlist)}>
                 <div class="card">
-                    <a href={list.external_urls.spotify}><img src={list.images[0].url} class="card-img-top" alt=""></img></a>
+                    <img src={playlist.images[0].url} class="card-img-top" alt=""></img>
                     <div class="card-body">
-                    <h5 class="card-title">{list.name}</h5>
-                    <p class="card-text">{list.type}</p>
-                    {console.log(list.external_urls.spotify)}
+                    <h5 class="card-title">{playlist.name}</h5>
+                    <p class="card-text">{playlist.type}</p>
+                    {console.log(playlist.external_urls.spotify)}
                     </div>
                 </div> 
              </div>

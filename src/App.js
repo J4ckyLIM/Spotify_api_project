@@ -26,6 +26,7 @@ class App extends Component {
     return (
       <div class="container text-center">
         <header>
+          <a href="http://localhost:8888/login">Login</a>
         </header>
         <Playlist playlists={playlists}></Playlist>
         <Albums albums={albums}></Albums>

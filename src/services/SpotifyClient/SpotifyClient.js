@@ -1,10 +1,10 @@
 import SpotifyWebApi from "spotify-web-api-node";
-import mockPlaylists from "./mock-playlists.json"
+import mockPlaylists from "./mock-playlists.json";
 
 const spotifyApi = new SpotifyWebApi();
-spotifyApi.setAccessToken(
-  "BQB623uJDVtdkfePX9lxMZXz9Y24TMcsbOPB6JtftzQ_rNmhsN9-jPQCMdfVx0e07vylyNHksD_v0ZfnNWANQ8SvlwdE3mFSWO6AvtsGOEsBpbqDjrE0I6ksXsdcvGC6WtZIcmtFeDUbbsUvEu2QeYd1TWNbKD6xpwfPEr7fIRf8EE0De-0vpXmU"
-);
+const accessToken = window.location.search.split('?')[1].split('=')[1]
+
+spotifyApi.setAccessToken(accessToken);
 
 export async function getSpotifyAlbums() {
   try {
@@ -15,23 +15,29 @@ export async function getSpotifyAlbums() {
     console.log("GetAlbums ===>", body.albums);
     return body.albums;
   } catch (er) {
-      console.error(er)
+    console.error(er);
   }
 }
 
-export async function getFeaturedPlaylist(){
+export async function getFeaturedPlaylist() {
   try {
-    const {body: {playlists:{items}}} =  await spotifyApi.getFeaturedPlaylists({ country: 'FR', locale: 'fr_FR' })
-    console.log(items)
-    return items
-  } catch(er) {
-    console.log(er)
-    return mockPlaylists
+    const {
+      body: {
+        playlists: { items }
+      }
+    } = await spotifyApi.getFeaturedPlaylists({
+      country: "FR",
+      locale: "fr_FR"
+    });
+    console.log(items);
+    return items;
+  } catch (er) {
+    console.log(er);
+    return mockPlaylists;
   }
 }
 
-export async function getTrackFromPlaylist(){
-  try{
-
-  }
+export async function getTrackFromPlaylist(playlistId) {
+  const { body } = await spotifyApi.getPlaylistTracks(playlistId);
+  console.log(body);
 }
