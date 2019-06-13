@@ -29,3 +29,9 @@ export async function getFeaturedPlaylist(){
     return mockPlaylists
   }
 }
+
+export async function getTrackFromPlaylist(){
+  try{
+
+  }
+}
