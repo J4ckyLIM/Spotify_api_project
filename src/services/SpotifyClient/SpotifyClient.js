@@ -19,6 +19,7 @@ export async function getSpotifyAlbums() {
   }
 }
 
+// On récupère les playlist provenant de l'api spotify
 export async function getFeaturedPlaylist() {
   try {
     const {
@@ -37,7 +38,10 @@ export async function getFeaturedPlaylist() {
   }
 }
 
+
+// On récupère les musiques de chaque playlist 
 export async function getTrackFromPlaylist(playlistId) {
-  const { body } = await spotifyApi.getPlaylistTracks(playlistId);
-  console.log(body);
+  const { body:{items} } = await spotifyApi.getPlaylistTracks(playlistId);
+  console.log('PLOP===>', items);
+  return items;
 }

@@ -5,12 +5,22 @@ import {getTrackFromPlaylist} from "./../../services/SpotifyClient/SpotifyClient
 export default class Playlist extends Component {
 
   static defaultProps = {
-    playlists: []
+    playlists: [],
+    onSave:()=>{
+    }
   }
 
-  onClickPlaylist(playlist) {
-    getTrackFromPlaylist(playlist.id)
+  // state = {
+  //   tracks: []
+  // }
+
+  // Fonction on click qui récupère un tableau contenant les musiques d'une playlist
+  async onClickPlaylist(playlist) {
+    const tracks = await getTrackFromPlaylist(playlist.id)
+    this.props.onSave(tracks)
+    console.log('NIKDF', tracks)
   }
+
   render () {
     const {playlists} = this.props
     return (

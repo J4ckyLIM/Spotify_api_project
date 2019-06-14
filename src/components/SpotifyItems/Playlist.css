@@ -5,3 +5,8 @@
 .playlist__items {
     display: block;
 }
+
+.img_tracks {
+    width: 66px;
+    height: 66px;
+}
